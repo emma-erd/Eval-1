@@ -1,0 +1,279 @@
+body{
+    width:100%;
+    height:100%;
+    background-color: rgb(246, 234, 216);
+}
+
+
+.myFontClass{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+.myPrimary{
+    color:#986705;
+}
+
+.mySecondary{
+    color: #e7c25e;
+}
+
+
+nav{
+    width: 100%;
+    background-color: #986705; 
+}
+
+main{
+    max-width: 100%;
+    width: 100%;
+    text-align:center;
+    word-wrap : break-word;
+}
+
+header, footer{
+    text-align: center;
+    color: black;
+}
+
+.myBreadcrumb ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+@media screen and (max-width:576px) {
+    .logoSize{
+        width:2rem;
+        height:2rem;
+    }
+
+    .myTitleClass{
+        font-style: oblique; 
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+        color:#e7c25e;
+        font-size:1.7rem;
+    }
+    
+    nav {
+        height:10vh;
+        margin-bottom:5%;
+    }
+
+    .navbarSize{
+        font-size:1.4rem;
+    }
+
+    .myBreadcrumb {
+        height: 10vh;
+        padding: 1rem;
+        font-size: 1.2rem;
+        color: black;
+    }
+
+    .myCarousel{
+        height:50vh;
+    }
+
+    main{
+        margin-bottom:2rem;
+        margin-right:5rem;
+        margin-left: 5rem;
+        line-height:100%;
+        font-size: 0.7rem;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+
+    h3{
+        font-size: 1.3rem;
+    }
+
+    h5{
+        font-size: 1rem;
+    }
+
+    .imgClass{
+        max-width: 100%;
+        max-height: 100%;
+        width: 3rem;
+        height: 2rem;
+    }
+
+    footer{
+        padding: 2rem;
+        font-size: 0.5rem;
+    }
+
+    .iconClass{
+        max-width: 100%;
+        max-height: 100%;
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+
+@media screen and (max-width:992px){
+    .logoSize{
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .myTitleClass{
+        position: relative;
+        left: -0.5rem;
+        font-style: oblique; 
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+        color:#e7c25e;
+        font-size:1.4rem;
+    }
+
+    nav{
+        border: solid;
+        height:20vh;
+        margin-bottom: 10%;
+    }
+
+    .flexItems{
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+
+    .navbarSize{
+        font-size:1.2rem;
+    }
+
+    .myBreadcrumb {
+        height: 10vh;
+        padding: 1rem;
+        font-size: 1.2rem;
+        color: black;
+    }
+
+    .myCarousel{
+        height:80vh;
+    }
+
+    main{
+        padding-bottom:3rem;
+        line-height: 150%;
+        font-size: 1rem;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+
+    h3{
+        font-size: 1.4rem;
+    }
+
+    h5{
+        font-size: 1.2rem;
+    }
+
+    h2, h3, h5 {
+        margin:10%;
+        text-align: center;
+    }
+
+    .imgClass{
+        width: 6rem;
+        height: 6rem;
+    }
+
+    footer{
+        padding: 3rem;
+        font-size: 0.8rem;
+    }
+
+    .iconClass{
+        max-width: 100%;
+        max-height: 100%;
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+
+@media screen and (min-width:992px) {
+    .logoSize{
+        width:3rem;
+        height:3rem;
+    }
+
+    .myTitleClass{
+        font-style: oblique; 
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+        color:#e7c25e;
+        font-size:2rem;
+    }
+
+    nav{
+        height:25vh;
+    }
+
+    .navbarSize{
+        font-size:1.6rem;
+    }
+
+    .myBreadcrumb {
+        height: 10vh;
+        padding: 1rem;
+        font-size: 1.2rem;
+        color: black;
+    }
+
+    .myCarousel{
+        height:100vh;
+    }
+
+    main{
+        margin:5rem;
+        padding-bottom: 3rem;
+        line-height: 200%;
+        font-size: 1.3rem;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+
+    h3{
+        font-size: 1.7rem;
+    }
+
+    h5{
+        font-size: 1.5rem;
+    }
+
+    h2,h3,h5{
+        margin: 10%;
+        text-align: center;
+    }
+
+    .imgClass{
+        width: 8rem;
+        height: 8rem;
+    }
+
+    footer{
+        padding:3rem;
+        font-size: 1rem;
+    }
+
+    .iconClass{
+        max-width: 100%;
+        max-height: 100%;
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
